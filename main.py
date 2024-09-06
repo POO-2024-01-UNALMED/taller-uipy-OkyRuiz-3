@@ -44,6 +44,7 @@ def calcular():
 
 def limpiar():
     pantalla.delete(0, "end")
+    
 
 # Configuración botones
 boton_1 = Button(root, text="1", width=9, height=3, bg="white", fg="red", borderwidth=0, cursor="hand2", command=lambda: numero_presionado(1)).grid(row=1, column=0, padx=1, pady=1)
